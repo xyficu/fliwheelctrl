@@ -15,6 +15,7 @@
 void SetWheel(flidev_t dev_filterWheel, long filter);
 void InitFli();
 void EndFli();
+void state();
 int main(int argc, char* argv[])
 {
 	printf("====================\n");
