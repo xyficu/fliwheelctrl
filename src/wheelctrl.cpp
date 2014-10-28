@@ -13,7 +13,8 @@
 
 //
 void SetWheel(flidev_t dev_filterWheel, long filter);
-void initFli();
+void InitFli();
+void EndFli();
 int main(int argc, char* argv[])
 {
 	printf("====================\n");
