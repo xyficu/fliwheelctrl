@@ -13,9 +13,6 @@
 
 //
 void SetWheel(flidev_t dev_filterWheel, long filter);
-void InitFli();
-void EndFli();
-void state();
 int main(int argc, char* argv[])
 {
 	printf("====================\n");
@@ -65,7 +62,7 @@ int main(int argc, char* argv[])
 	}
 
 	//try to control filter wheel
-	printf("Valid postiong is 0~11.\n");
+	printf("Valid postiong is 0~11. Input -1 to exit...\n");
 	long pos=0;
 	do
 	{
