@@ -14,6 +14,7 @@
 //
 void AddTest1(void); //2014年12月07日10:49:54
 void AddTest2(void);
+void AddTest3(void);
 void SetWheel(flidev_t dev_filterWheel, long filter);
 
 int main(int argc, char* argv[])
