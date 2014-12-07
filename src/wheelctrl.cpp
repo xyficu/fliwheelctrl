@@ -12,9 +12,10 @@
 #define FLIFILTERWHEELCTRL_VER "0.0.1"
 
 //
-void AddTest1(void); //2014年12月07日10:49:54
-
 void SetWheel(flidev_t dev_filterWheel, long filter);
+void InitFli();
+void EndFli();
+void testFromUpStream();
 int main(int argc, char* argv[])
 {
 	printf("====================\n");
@@ -64,7 +65,7 @@ int main(int argc, char* argv[])
 	}
 
 	//try to control filter wheel
-	printf("Valid postiong is 0~11. Input -1 to exit...\n");
+	printf("Valid postiong is 0~11.\n");
 	long pos=0;
 	do
 	{
