@@ -14,6 +14,7 @@
 //
 void SetWheel(flidev_t dev_filterWheel, long filter);
 void Test1(void);
+void Test2(void);
 
 int main(int argc, char* argv[])
 {
